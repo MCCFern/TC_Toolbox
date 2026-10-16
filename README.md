@@ -1,8 +1,8 @@
 # TC_Toolbox
-Team Challenge porpuesto pot The Bridge para la creación de un toolbox.
-# TC_Toolbox
 
-**`toolbox_ml`** es un paquete de Python construido desde cero que automatiza el Análisis Exploratorio de Datos (EDA) y la selección de predictores para modelos de regresión. A diferencia de un script básico de IA, este proyecto sigue los estándares de un equipo de Data Science profesional: está completamente modularizado, incluye tests automatizados con `pytest`, cuenta con gestión de dependencias integrada (`setup.py`) y genera paneles visuales avanzados listos para producción.
+Team Challenge propuesto por The Bridge para crear una caja de herramientas de análisis de datos.
+
+**`toolbox_ml`** es un paquete colaborativo de Python para el análisis exploratorio y la selección de predictores en regresión. El proyecto organiza funciones en módulos, incluye pruebas automatizadas con `pytest`, configuración de instalación con `setup.py` y funciones de visualización. Su uso requiere comprobar los supuestos estadísticos y la adecuación a cada conjunto de datos.
 
 ---
 
@@ -35,7 +35,7 @@ Sigue estos pasos para clonar el repositorio, configurar el entorno virtual e in
 
 ```bash
 #1. Clonar el repositorio
-git clone [https://github.com/lolarealcejudo27/TC_Toolbox.git](https://github.com/lolarealcejudo27/TC_Toolbox.git)
+git clone https://github.com/MCCFern/TC_Toolbox.git
 
 #2. Acceder a la carpeta del proyecto
 cd TC_Toolbox
@@ -104,7 +104,7 @@ plot_features_cat_regression(df=df_titanic, target_col="fare", columns=cat_featu
 
 ## Cómo Ejecutar los Tests
 
-El proyecto cuenta con una batería de pruebas automatizadas con `pytest` para garantizar la robustez de las validaciones de datos internas y el control de errores.
+El proyecto cuenta con una batería de pruebas automatizadas con `pytest` para comprobar validaciones de datos y control de errores en los casos cubiertos; no constituyen una garantía de preparación para producción.
 
 Para ejecutar los tests de forma detallada, asegúrate de tener el entorno activado y lanza:
 
